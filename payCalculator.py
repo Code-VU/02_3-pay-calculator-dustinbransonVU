@@ -2,15 +2,13 @@ def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
     # This first line is provided for you
-hours = 35
-rate = 2.75
-if hours <= 40:
-     hours * rate
-   
-pay = (hours*rate)
-print("calculating pay:",pay)
+hrs = input("35")
+rate = input("2.75")
 
-
+if hrs <= 40:
+    print(hrs*rate)
+else:
+    print((hrs-40)*(1.5*rate) + (40*rate));
 
     # end assignment
 
