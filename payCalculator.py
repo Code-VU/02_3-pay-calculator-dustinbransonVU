@@ -8,7 +8,7 @@ if hours <= 40:
      hours * rate
    
 pay = (hours*rate)
-print("total pay:",pay)
+print("calculating pay:",pay)
 
 
 
